@@ -1,0 +1,40 @@
+:root {
+    --manrope: "Manrope", sans-serif;
+    --barlow: "Barlow Semi Condensed", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--manrope);
+}
+
+body {
+    background-color: rgb(8, 28, 46);
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    font-family: var(--barlow);
+}
+
+.question-card {
+    background-color: rgb(12, 41, 66);
+    padding: 16px;
+}
+
+.results {
+    background: rgb(12, 41, 66);
+    padding: 16px;
+}
